@@ -41,7 +41,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['https://git.heroku.com/pp4-project-ci.git', 'localhost']
+ALLOWED_HOSTS = ['https://git.heroku.com/pp4-project-ci.git', 'localhost', '127.0.0.1', '*']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
